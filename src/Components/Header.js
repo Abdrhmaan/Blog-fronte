@@ -11,14 +11,6 @@ function Header() {
             src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
           />
         </Link>
-        <div className="ml-3 flex items-center border-2 px-2 rounded-md">
-          <input
-            className="p-1.5 w-72 focus:border-none"
-            type="text"
-            placeholder="Search"
-          />
-          <MdSearch size={25} />
-        </div>
       </div>
       {/* WHEN USERS NOT LOGGED IN */}
       {/* <div>
